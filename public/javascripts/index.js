@@ -1,5 +1,3 @@
-const Primus = require("primus");
-
 let primus = Primus.connect("/", {
     reconnect: {
         max: Infinity // Number: The max delay before we try to reconnect.
