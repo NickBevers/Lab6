@@ -1,0 +1,23 @@
+extends ../layout
+
+block content 
+    h1 Your favorite e-sport teams
+    ul(class="teams")
+        li(class="optic")
+            p Optic Gaming
+            img(src="/images/optic.jpg", alt="Team Optic", style="width: 100px")
+            p(class="votes") votes:
+                span 0 
+        li(class="kinguin")
+            p Team Kinguin
+            img(src="/images/kinguin.jpg", alt="Team Kinguin", style="width: 100px")
+            p(class="votes") votes:
+                span 0 
+        li(class="faze")
+            p Faze clan
+            img(src="/images/faze.png", alt="Team Faze", style="width: 100px")
+            p(class="votes") votes:
+                span 0 
+
+script(src="/primus/primus.js")
+script(src="/javascripts/live.js")
