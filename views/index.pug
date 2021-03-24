@@ -1,5 +1,20 @@
-extends layout
+extends ../layout
 
-block content
-  h1= title
-  p Welcome to #{title}
+block content 
+    h1 Vote for your favorite e-sport teams (click on them)
+    ul(class="teams")
+        li(class="optic")
+            p Optic Gaming
+            img(src="/images/optic.jpg", alt="Team Optic", style="width: 100px")
+             
+        li(class="kinguin")
+            p Team Kinguin
+            img(src="/images/kinguin.jpg", alt="Team Kinguin", style="width: 100px")
+             
+        li(class="faze")
+            p Faze clan
+            img(src="/images/faze.png", alt="Team Faze", style="width: 100px")
+             
+
+    script(src="/primus/primus.js")
+    script(src="/javascripts/index.js")
