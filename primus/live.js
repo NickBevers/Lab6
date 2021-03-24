@@ -6,12 +6,11 @@ function go(server){
     primus.on('connection', (spark) => {
         console.log("New spark");
 
-        
+
         spark.on("data", (data) => {
             primus.write(data);
         })
       });
-      
 }
 
 module.exports.go = go;
