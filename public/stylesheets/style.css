@@ -6,3 +6,23 @@ body {
 a {
   color: #00B7FF;
 }
+
+h1{
+  text-align: center;
+}
+
+.teams{
+  width: 50%;
+  list-style-type: none;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.teams li{
+  text-align: center;
+  font-size: 20px;
+}

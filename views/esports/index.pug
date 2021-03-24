@@ -1,9 +1,17 @@
+extends ../layout
+
 block content 
-h1 Your favorite e-sport teams
-ul(class="teams")
-    li(class="optic")
-        img(src="/images/optic.jpg", alt="Team Optic", style="width: 100px")
-    li(class="kinguin")
-        img(src="/images/kinguin.jpg", alt="Team Kinguin", style="width: 100px")
-    li(class="faze")
-        img(src="/images/faze.png", alt="Team Faze", style="width: 100px")
+    h1 Your favorite e-sport teams
+    ul(class="teams")
+        li(class="optic")
+            img(src="/images/optic.jpg", alt="Team Optic", style="width: 100px")
+            p(class="votes") votes:
+                span 0 
+        li(class="kinguin")
+            img(src="/images/kinguin.jpg", alt="Team Kinguin", style="width: 100px")
+            p(class="votes") votes:
+                span 0 
+        li(class="faze")
+            img(src="/images/faze.png", alt="Team Faze", style="width: 100px")
+            p(class="votes") votes:
+                span 0 
